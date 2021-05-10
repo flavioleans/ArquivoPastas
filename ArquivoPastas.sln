@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diretorio", "Diretorio\Dire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirInfo", "DirInfo\DirInfo.csproj", "{117E340A-526F-4A52-B306-9D6564F6FCB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LerEscrever", "LerEscrever\LerEscrever.csproj", "{7908AFDA-C61E-4B52-9D08-144CDDD4A5EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{117E340A-526F-4A52-B306-9D6564F6FCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117E340A-526F-4A52-B306-9D6564F6FCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117E340A-526F-4A52-B306-9D6564F6FCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7908AFDA-C61E-4B52-9D08-144CDDD4A5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7908AFDA-C61E-4B52-9D08-144CDDD4A5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7908AFDA-C61E-4B52-9D08-144CDDD4A5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7908AFDA-C61E-4B52-9D08-144CDDD4A5EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
