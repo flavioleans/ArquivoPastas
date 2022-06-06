@@ -22,7 +22,7 @@ namespace ArquivoInfo
         private void button1_Click(object sender, EventArgs e)
         {
             lista.Items.Clear();
-            FileInfo info = new FileInfo(@"D:\ProjetosC#\teste.txt");
+            FileInfo info = new FileInfo(@"C:\Arquivos\teste.txt");
             lista.Items.Add(info.FullName);
             lista.Items.Add(info.Name);
             lista.Items.Add(info.Extension);

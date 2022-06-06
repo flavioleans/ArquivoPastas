@@ -29,14 +29,20 @@ namespace Arquivo
         #endregion
         private void button1_Click(object sender, EventArgs e)
         {
-            string pasta = @"D:\ProjetosC#\";
+            string pasta = @"C:\Arquivos\";
             string arquivo = "teste.txt";
 
+            //verificando se arquivo existe
             //bool res = File.Exists(pasta + arquivo);
             //label1.Text = res.ToString();
 
             //deletar
-            //File.Delete(pasta + arquivo);
+            //if (res == true)
+            //{
+            //    File.Delete(pasta + arquivo);
+            //    label1.Text = "Arquivo deletado";
+            //}
+
 
             //create e fechar arquivo
             //if (!File.Exists(pasta + arquivo))
@@ -50,7 +56,6 @@ namespace Arquivo
             //}
 
             //Copy
-
             //if (File.Exists(pasta + arquivo))
             //{
             //    File.Copy(pasta + arquivo, pasta + "TesteCopia.txt", true); //permite sobre escrita
@@ -70,7 +75,7 @@ namespace Arquivo
             //File.WriteAllText(pasta + arquivo, "teste de escrita de arquivo", Encoding.Default);
 
             //ReadAllText
-           label1.Text = File.ReadAllText(pasta + arquivo, Encoding.Default);
+            //label1.Text = File.ReadAllText(pasta + arquivo, Encoding.Default);
 
         }
     }
